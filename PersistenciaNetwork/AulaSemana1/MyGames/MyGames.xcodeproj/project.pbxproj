@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045E5AD8248083DB00608E2F /* ConsoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E5AD7248083DB00608E2F /* ConsoleViewController.swift */; };
+		045E5ADA2480863400608E2F /* AddEditConsoleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045E5AD92480863400608E2F /* AddEditConsoleViewController.swift */; };
 		ED8AA205246F559500287D33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AA204246F559500287D33 /* AppDelegate.swift */; };
 		ED8AA207246F559500287D33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8AA206246F559500287D33 /* SceneDelegate.swift */; };
 		ED8AA20C246F559500287D33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED8AA20A246F559500287D33 /* Main.storyboard */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		045E5AD7248083DB00608E2F /* ConsoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleViewController.swift; sourceTree = "<group>"; };
+		045E5AD92480863400608E2F /* AddEditConsoleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditConsoleViewController.swift; sourceTree = "<group>"; };
 		ED8AA201246F559500287D33 /* MyGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED8AA204246F559500287D33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED8AA206246F559500287D33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,11 +83,13 @@
 				ED8AA20D246F559500287D33 /* MyGames.xcdatamodeld */,
 				ED8AA21B2470176B00287D33 /* GamesTableViewController.swift */,
 				ED8AA21F247018BF00287D33 /* GameViewController.swift */,
+				045E5AD7248083DB00608E2F /* ConsoleViewController.swift */,
 				ED8AA2212470192000287D33 /* AddEditViewController.swift */,
 				ED8AA22324701B9C00287D33 /* GameTableViewCell.swift */,
 				ED8AA22524701E9600287D33 /* ConsolesTableViewController.swift */,
 				ED8AA22724702C6400287D33 /* ViewController+CoreData.swift */,
 				ED8AA2292470581C00287D33 /* ConsolesManager.swift */,
+				045E5AD92480863400608E2F /* AddEditConsoleViewController.swift */,
 			);
 			path = MyGames;
 			sourceTree = "<group>";
@@ -159,11 +165,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045E5AD8248083DB00608E2F /* ConsoleViewController.swift in Sources */,
 				ED8AA220247018BF00287D33 /* GameViewController.swift in Sources */,
 				ED8AA2222470192000287D33 /* AddEditViewController.swift in Sources */,
 				ED8AA205246F559500287D33 /* AppDelegate.swift in Sources */,
 				ED8AA22624701E9600287D33 /* ConsolesTableViewController.swift in Sources */,
 				ED8AA207246F559500287D33 /* SceneDelegate.swift in Sources */,
+				045E5ADA2480863400608E2F /* AddEditConsoleViewController.swift in Sources */,
 				ED8AA22A2470581C00287D33 /* ConsolesManager.swift in Sources */,
 				ED8AA21C2470176B00287D33 /* GamesTableViewController.swift in Sources */,
 				ED8AA20F246F559500287D33 /* MyGames.xcdatamodeld in Sources */,
@@ -314,7 +322,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyGames/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +340,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyGames/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

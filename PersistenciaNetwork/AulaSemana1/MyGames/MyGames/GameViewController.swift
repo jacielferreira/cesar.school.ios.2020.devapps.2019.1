@@ -15,6 +15,7 @@ class GameViewController: UIViewController {
     @IBOutlet weak var lbConsole: UILabel!
     @IBOutlet weak var lbReleaseDate: UILabel!
     @IBOutlet weak var ivCover: UIImageView!
+    @IBOutlet weak var ivCapaCover: UIImageView!
     
     
     var game: Game?
@@ -37,6 +38,12 @@ class GameViewController: UIViewController {
             formatter.dateStyle = .long
             formatter.locale = Locale(identifier: "pt-BR")
             lbReleaseDate.text = "Lançamento: " + formatter.string(from: releaseDate)
+        }
+        
+        if let image = game?.console?.cover as? UIImage {
+            ivCapaCover.image = image
+        } else {
+            ivCover.image = UIImage(named: "noCoverFull")
         }
        
         if let image = game?.cover as? UIImage {
