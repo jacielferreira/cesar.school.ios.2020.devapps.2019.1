@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.2.1)
+  - SideMenu (6.4.8)
+
+DEPENDENCIES:
+  - Alamofire
+  - SideMenu
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - SideMenu
+
+SPEC CHECKSUMS:
+  Alamofire: e911732990610fe89af59ac0077f923d72dc3dfd
+  SideMenu: 4a891be552d30bb6fa87ad404d62e485f8450c34
+
+PODFILE CHECKSUM: 6eac2a429890a9c1db231f123a09f3de8acd95ed
+
+COCOAPODS: 1.9.3
